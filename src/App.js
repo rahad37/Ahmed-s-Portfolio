@@ -7,6 +7,7 @@ import Testimonials from './components/testimonials/Testimonials';
 import Contact from './components/contact/Contact';
 import './App.scss';
 import Menu from './components/menu/Menu.js';
+import About from './components/About.js';
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -16,6 +17,7 @@ function App() {
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className="sections">
         <Intro />
+        <About />
         <Portfolio />
         <Works />
         <Testimonials />
