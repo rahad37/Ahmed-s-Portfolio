@@ -21,7 +21,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            float: left;
+            float: right;
 
             @include mobile{
                 align-items: flex-start;
