@@ -1,0 +1,62 @@
+.about{
+    background-color: white;
+
+    .about-title{
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+.about-information{
+    display: flex;
+
+    .my-photo{
+        flex: 1;
+        text-align: center;
+
+        .about_description{
+            width: 600px;
+            font-size: 20px;
+            text-align: justify;
+            margin-left: 30px;
+            margin-bottom: 20px;
+        }
+        .about-img{
+            height: 350px;
+            margin: 0 auto;
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color: rgb(3, 3, 51);;
+        }
+    }
+}
+
+.about-data{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    h2{
+        font-size: 35px;
+        color: crimson;
+    }
+    h4{
+        margin: 20px 0;
+        font-size: 20px;
+    }
+    .info{
+        display: flex;
+        align-items: center;
+    }
+    .info-icon{
+        margin-right: 30px;
+        margin-left: 20px;
+        font-size: 30px;
+        color: crimson;
+    }
+    .info-item{
+        margin-bottom: 30px;
+    }
+}

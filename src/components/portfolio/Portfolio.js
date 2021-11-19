@@ -5,25 +5,25 @@ import './Portfolio.scss';
 
 
 const Portfolio = () => {
-    const [selected, setSelected] = useState('featured');
+    const [selected, setSelected] = useState('node');
     const [data, setData] = useState([]);
 
     const list = [
         {
-            id: 'featured',
-            title: 'Featured'
+            id: 'node',
+            title: 'Node.js'
         },
         {
-            id: 'web',
-            title: 'Web App'
+            id: 'react',
+            title: 'React.js'
         },
         {
-            id: 'mobile',
-            title: 'Mobile App'
+            id: 'js',
+            title: 'JavaScript'
         },
         {
-            id: 'design',
-            title: 'Design'
+            id: 'html',
+            title: 'HTML/CSS'
         },
         {
             id: 'content',
@@ -33,16 +33,16 @@ const Portfolio = () => {
 
     useEffect(() => {
         switch(selected){
-            case 'featured':
+            case 'node':
                 setData(featuredPortfolio);
                 break;
-            case 'web':
+            case 'react':
                 setData(webPortfolio);
                 break;
-            case 'mobile':
+            case 'js':
                 setData(mobilePortfolio);
                 break;
-            case 'design':
+            case 'html':
                 setData(designPortfolio);
                 break;
             case 'content':

@@ -1,0 +1,79 @@
+.expertise{
+    background-color: white;
+    text-align: center;
+}
+.section-title{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.section-subtitle{
+    font-size: 25px;
+    color: crimson;
+}
+.skills_container{
+    row-gap: 2rem;
+    display: flex;
+}
+.front{
+    flex: 1;
+}
+.back{
+    flex: 1;
+}
+.skills_subtitle{
+    font-size: 30px;
+    color: crimson;
+    margin-bottom: 20px;
+}
+.skills_data{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.skills_name{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: crimson;
+    font-weight: bold;
+}
+.skills_bar{
+    position: absolute;
+    bottom: 1px;
+    height: 5px;
+    background-color: darkblue;
+}
+.skills_number{
+    color: crimson;
+    font-weight: bold;
+}
+.skills_html{
+    width: 80%;
+}
+.skills_js{
+    width: 70%;
+}
+.skills_react{
+    width: 75%;
+}
+.skills_bootstrap{
+    width: 85%;
+}
+.skills_material{
+    width: 85%;
+}
+.skills_redux{
+    width: 80%;
+}
+.skills_ts{
+    width: 60%;
+}
+.skills_node{
+    width: 70%;
+}
+.skills_mongodb{
+    width: 80%;
+}
+.skills_firebase{
+    width: 75%;
+}
