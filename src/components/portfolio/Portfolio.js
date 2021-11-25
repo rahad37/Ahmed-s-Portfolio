@@ -45,9 +45,6 @@ const Portfolio = () => {
             case 'html':
                 setData(html_css);
                 break;
-            // case 'content':
-            //     setData(contentPortfolio);
-            //     break;
                 default:
                 setData(javascript);
         }

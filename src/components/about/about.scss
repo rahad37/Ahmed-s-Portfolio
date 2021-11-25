@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 .about{
     background-color: white;
 
@@ -10,6 +12,9 @@
 
 .about-information{
     display: flex;
+    @include mobile{
+        display: block;           
+    }
 
     .my-photo{
         flex: 1;
@@ -21,13 +26,19 @@
             text-align: justify;
             margin-left: 30px;
             margin-bottom: 20px;
+            @include mobile{
+                width: 450px;          
+            }
         }
         .about-img{
             height: 300px;
             margin: 0 auto;
             border: 1px solid black;
             border-radius: 10px;
-            background-color: rgb(3, 3, 51);;
+            background-color: rgb(3, 3, 51);
+            @include mobile{
+                margin: none;          
+            }
         }
     }
 }

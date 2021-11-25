@@ -10,7 +10,7 @@ const Expertise = () => {
 
             <div class="skills_container bd-grid">
                 <div class="skills-content front">
-                    <h3 class="skills_subtitle">Frontend</h3>
+                    {/* <h3 class="skills_subtitle">Frontend</h3> */}
 
                     <div class="skills_data">
                         <span class="skills_name">HTML/CSS</span>
@@ -55,7 +55,7 @@ const Expertise = () => {
                     </div>
                 </div>
                 <div class="skills-content back">
-                    <h3 class="skills_subtitle">Backend</h3>
+                    {/* <h3 class="skills_subtitle">Backend</h3> */}
 
                     <div class="skills_data">
                         <span class="skills_name">Node.js</span>
