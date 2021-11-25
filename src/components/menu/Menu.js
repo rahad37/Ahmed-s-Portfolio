@@ -10,7 +10,7 @@ const Menu = ({menuOpen, setMenuOpen}) => {
                 <li onClick={() => setMenuOpen(false)}><a href="#works">Works</a></li>
                 <li onClick={() => setMenuOpen(false)}><a href="#about">About</a></li>
                 <li onClick={() => setMenuOpen(false)}><a href="#expertise">Skills</a></li>
-                <li onClick={() => setMenuOpen(false)}><a href="#testimonials">Testimonials</a></li>
+                {/* <li onClick={() => setMenuOpen(false)}><a href="#testimonials">Testimonials</a></li> */}
                 <li onClick={() => setMenuOpen(false)}><a href="#contact">Contact</a></li>
             </ul>
         </div>

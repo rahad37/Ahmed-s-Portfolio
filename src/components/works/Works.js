@@ -7,29 +7,26 @@ const Works = () => {
         {
           id: "1",
           icon: "./assets/mobile.png",
-          title: "Web Design",
+          title: "Bohubrihi Online Shop",
           desc:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-          img:
-            "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+          img: "https://i.ibb.co/8snYym1/bohubrihi-e-commerce.png",
         },
         {
           id: "2",
           icon: "./assets/globe.png",
-          title: "Mobile Application",
+          title: "Blog Application",
           desc:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-          img:
-            "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+          img: "https://i.ibb.co/3sDhMvd/blog-apps.png",
         },
         {
           id: "3",
           icon: "./assets/writing.png",
-          title: "Branding",
+          title: "Ahmed E-Commerce",
           desc:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-          img:
-            "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+          img: "https://i.ibb.co/7g6d7XM/ahmed-e-commerce.png",
         },
       ];
 
@@ -38,8 +35,9 @@ const Works = () => {
           setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
       }
 
-    return (
+    return (      
         <div className='works' id='works'>
+          <h1>Best Work...</h1>
             <div className="slider" style={{transform: `translateX(-${currentSlide * 100}vw)`}}>
                 {data.map((d) => (
                     <div className="container" key={d.id}>

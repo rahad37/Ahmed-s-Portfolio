@@ -1,55 +1,55 @@
 import React, { useEffect, useState } from 'react';
-import { contentPortfolio, designPortfolio, featuredPortfolio, mobilePortfolio, webPortfolio } from '../../data';
+import { node, javascript, react, html_css} from '../../data';
 import PortfolioList from '../portfolioList/PortfolioList';
 import './Portfolio.scss';
 
 
 const Portfolio = () => {
-    const [selected, setSelected] = useState('node');
+    const [selected, setSelected] = useState('js');
     const [data, setData] = useState([]);
 
     const list = [
         {
-            id: 'node',
-            title: 'Node.js'
+            id: 'js',
+            title: 'JavaScript'
         },
         {
             id: 'react',
             title: 'React.js'
         },
         {
-            id: 'js',
-            title: 'JavaScript'
+            id: 'node',
+            title: 'Node.js'
         },
         {
             id: 'html',
             title: 'HTML/CSS'
         },
-        {
-            id: 'content',
-            title: 'Content'
-        }
+        // {
+        //     id: 'content',
+        //     title: 'Content'
+        // }
     ]
 
     useEffect(() => {
         switch(selected){
             case 'node':
-                setData(featuredPortfolio);
+                setData(node);
                 break;
             case 'react':
-                setData(webPortfolio);
+                setData(react);
                 break;
             case 'js':
-                setData(mobilePortfolio);
+                setData(javascript);
                 break;
             case 'html':
-                setData(designPortfolio);
+                setData(html_css);
                 break;
-            case 'content':
-                setData(contentPortfolio);
-                break;
+            // case 'content':
+            //     setData(contentPortfolio);
+            //     break;
                 default:
-                setData(featuredPortfolio);
+                setData(javascript);
         }
     },[selected])
     return (
