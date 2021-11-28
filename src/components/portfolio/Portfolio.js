@@ -51,7 +51,7 @@ const Portfolio = () => {
     },[selected])
     return (
         <div className='portfolio' id='portfolio'>
-            <h1>Portfolio...</h1>
+            <h1>Projects...</h1>
             <ul>
                 {list.map((item) => (
                     <PortfolioList key={item.id} title={item.title} active={selected === item.id} setSelected={setSelected} id={item.id}/>
