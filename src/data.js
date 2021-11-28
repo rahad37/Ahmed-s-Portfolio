@@ -75,8 +75,8 @@ export const node = [
     },
     {
       id: 2,
-      title: "To_Do List-2",
-      img: "https://i.ibb.co/h231Nhp/list.png",
+      title: "Medicine Store",
+      img: "https://i.ibb.co/TwR4TcY/medicine-store.png",
     },
     {
       id: 3,
@@ -88,6 +88,11 @@ export const node = [
       title: "Book List",
       img: "https://i.ibb.co/2FnHrKW/book-list.png",
     },
+    {
+      id: 5,
+      title: "To_Do List-2",
+      img: "https://i.ibb.co/h231Nhp/list.png",
+    }
     // {
     //   id: 5,
     //   title: "Mobile Hero Design",

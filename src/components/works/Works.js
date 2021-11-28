@@ -6,7 +6,7 @@ const Works = () => {
     const data = [
         {
           id: "1",
-          icon: "./assets/mobile.png",
+          icon: "./assets/globe.png",
           title: "Bohubrihi Online Shop",
           desc:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
@@ -22,7 +22,7 @@ const Works = () => {
         },
         {
           id: "3",
-          icon: "./assets/writing.png",
+          icon: "./assets/globe.png",
           title: "Ahmed E-Commerce",
           desc:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
