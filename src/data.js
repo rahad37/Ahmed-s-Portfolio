@@ -4,11 +4,11 @@ export const node = [
       title: "Blog App",
       img: "https://i.ibb.co/3sDhMvd/blog-apps.png",
     },
-    // {
-    //   id: 2,
-    //   title: "Ahmed Shop",
-    //   img: "https://i.ibb.co/7g6d7XM/ahmed-e-commerce.png",
-    // },
+    {
+      id: 2,
+      title: "Ahmed Shop",
+      img: "https://i.ibb.co/7g6d7XM/ahmed-e-commerce.png",
+    },
     {
       id: 3,
       title: "Bohubrihi",
@@ -73,11 +73,11 @@ export const node = [
       title: "To-Do List-1",
       img: "https://i.ibb.co/sV7c4tZ/todo-list.png",
     },
-    {
-      id: 2,
-      title: "Medicine Store",
-      img: "https://i.ibb.co/TwR4TcY/medicine-store.png",
-    },
+    // {
+    //   id: 2,
+    //   title: "Medicine Store",
+    //   img: "https://i.ibb.co/TwR4TcY/medicine-store.png",
+    // },
     {
       id: 3,
       title: "Github Finder",
