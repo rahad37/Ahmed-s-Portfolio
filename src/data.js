@@ -4,11 +4,11 @@ export const node = [
       title: "Blog App",
       img: "https://i.ibb.co/3sDhMvd/blog-apps.png",
     },
-    {
-      id: 2,
-      title: "Ahmed Shop",
-      img: "https://i.ibb.co/7g6d7XM/ahmed-e-commerce.png",
-    },
+    // {
+    //   id: 2,
+    //   title: "Ahmed Shop",
+    //   img: "https://i.ibb.co/7g6d7XM/ahmed-e-commerce.png",
+    // },
     {
       id: 3,
       title: "Bohubrihi",
