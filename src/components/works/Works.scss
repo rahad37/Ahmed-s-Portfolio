@@ -43,16 +43,17 @@
             flex-direction: column;
             justify-content: center;           
         }
-        .editLink{
-            text-decoration: none;
-            color: inherit;
+        
 
-            .container{
-                width: 100vw;
-                display: flex;
-                align-items: center;
-                justify-content: center;
+        .container{
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
+            .editLink{
+                text-decoration: none;
+                color: inherit;
             .item{
                 width: 700px;
                 height: 100%;
@@ -100,11 +101,11 @@
                         }
                         
 
-                            img{
-                                width: 25px;
-                                @include mobile{
-                                    width: 15px;                               
-                                }
+                        img{
+                            width: 25px;
+                            @include mobile{
+                                width: 15px;                               
+                            }
                         }
                         
                     
@@ -133,22 +134,23 @@
                     }
                     }
                 }
-                .right{
-                    flex: 8;
-                    height: 100%;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    overflow: hidden;
+                    .right{
+                        flex: 8;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        overflow: hidden;
 
-                    img{
-                        width: 400px;
-                        transform: rotate(-10deg);
-                        
+                        img{
+                            width: 400px;
+                            height: 300px;
+                            transform: rotate(-10deg);
+                            
+                        }
                     }
-                }
             }
-            }
+        }
         }
     }
 }

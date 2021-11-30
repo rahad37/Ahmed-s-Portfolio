@@ -65,7 +65,7 @@ export const node = [
     {
       id: 5,
       title: "Fancy Slider",
-      img: "https://i.ibb.co/31FHgy2/travelling-world.png",
+      img: "https://i.ibb.co/1JYPCTd/fancy-slider.png",
       git: "https://github.com/rahad37/fancy-slider-main"
     },
     // {
