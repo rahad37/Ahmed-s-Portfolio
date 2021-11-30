@@ -11,6 +11,7 @@ const Works = () => {
           desc:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
           img: "https://i.ibb.co/8snYym1/bohubrihi-e-commerce.png",
+          live: "https://www.linkedin.com/feed/update/urn:li:activity:6871420600326483968/"
         },
         {
           id: "2",
@@ -19,6 +20,7 @@ const Works = () => {
           desc:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
           img: "https://i.ibb.co/3sDhMvd/blog-apps.png",
+          live: "https://www.linkedin.com/feed/update/urn:li:activity:6871429208732786688/"
         },
         {
           id: "3",
@@ -40,6 +42,7 @@ const Works = () => {
           <h1>Best Work...</h1>
             <div className="slider" style={{transform: `translateX(-${currentSlide * 100}vw)`, cursor: 'pointer'}}>
                 {data.map((d) => (
+                  <a href={d.live} target='_blank'>
                     <div className="container" key={d.id}>
                     <div className="item">
                         <div className="left">
@@ -56,7 +59,9 @@ const Works = () => {
                             <img src={d.img} alt="" />
                         </div>
                     </div>
-                </div>))}
+                </div>
+                </a>
+                ))}
             </div>
             <img src="assets/arrow.png" alt="" className="arrow left" onClick={() => handleClick('left')}/>
             <img src="assets/arrow.png" alt="" className="arrow right" onClick={() => handleClick('right')}/>

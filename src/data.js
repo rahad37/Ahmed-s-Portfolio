@@ -3,17 +3,20 @@ export const node = [
       id: 1,
       title: "Blog App",
       img: "https://i.ibb.co/3sDhMvd/blog-apps.png",
+      git: "https://github.com/rahad37/blog-app-client-site"
     },
     {
       id: 2,
-      title: "Ahmed Shop",
-      img: "https://i.ibb.co/7g6d7XM/ahmed-e-commerce.png",
+      title: "Bohubrihi",
+      img: "https://i.ibb.co/8snYym1/bohubrihi-e-commerce.png",
+      git: "https://github.com/rahad37/bohubrihi-e-commerce-client"
     },
     {
       id: 3,
-      title: "Bohubrihi",
-      img: "https://i.ibb.co/8snYym1/bohubrihi-e-commerce.png",
-    },
+      title: "Ahmed Shop",
+      img: "https://i.ibb.co/7g6d7XM/ahmed-e-commerce.png",
+      git: "https://github.com/rahad37/my-online-shop-client"
+    }
     // {
     //   id: 4,
     //   title: "Relax Mobile App",
@@ -39,11 +42,31 @@ export const node = [
       id: 1,
       title: "React Practice",
       img: "https://i.ibb.co/VCKy9mR/material-ui.png",
+      git: "https://github.com/rahad37/react-material-app"
     },
     {
       id: 2,
       title: "Admin Page",
       img: "https://i.ibb.co/RBJ9fXM/admin-page.png",
+      git: "https://github.com/rahad37/admin-dashboard"
+    },
+    {
+      id: 3,
+      title: "Fashion Shop",
+      img: "https://i.ibb.co/h7KWRQ5/fashion-shop.png",
+      git: "https://github.com/rahad37/my-fashion-shop"
+    },
+    {
+      id: 4,
+      title: "Travelling World",
+      img: "https://i.ibb.co/31FHgy2/travelling-world.png",
+      git: "https://github.com/rahad37/travelling-world-client-site"
+    },
+    {
+      id: 5,
+      title: "Fancy Slider",
+      img: "https://i.ibb.co/31FHgy2/travelling-world.png",
+      git: "https://github.com/rahad37/fancy-slider-main"
     },
     // {
     //   id: 3,
@@ -72,26 +95,31 @@ export const node = [
       id: 1,
       title: "To-Do List-1",
       img: "https://i.ibb.co/sV7c4tZ/todo-list.png",
+      git: "https://github.com/rahad37/todo-list"
     },
-    // {
-    //   id: 2,
-    //   title: "Medicine Store",
-    //   img: "https://i.ibb.co/TwR4TcY/medicine-store.png",
-    // },
+    {
+      id: 2,
+      title: "Medicine Store",
+      img: "https://i.ibb.co/TwR4TcY/medicine-store.png",
+      git: "https://github.com/rahad37/medicine-store"
+    },
     {
       id: 3,
       title: "Github Finder",
       img: "https://i.ibb.co/MSgydwC/github-finder.png",
+      git: "https://github.com/rahad37/github-finder-project"
     },
     {
       id: 4,
       title: "Book List",
       img: "https://i.ibb.co/2FnHrKW/book-list.png",
+      git: "https://github.com/rahad37/book-listing"
     },
     {
       id: 5,
       title: "To_Do List-2",
       img: "https://i.ibb.co/h231Nhp/list.png",
+      git: "https://github.com/rahad37/listing-project/tree/main"
     }
     // {
     //   id: 5,
@@ -112,6 +140,13 @@ export const node = [
       id: 1,
       title: "Movie App",
       img: "https://i.ibb.co/n7mjShR/Screenshot-2021-11-14-113430.png",
+      git: "https://github.com/rahad37/movie-app"
+    },
+    {
+      id: 2,
+      title: "Online Bank",
+      img: "https://i.ibb.co/MDftCn5/pioneer-bank.png",
+      git: "https://github.com/rahad37/pioneer_bank"
     },
     // {
     //   id: 2,
