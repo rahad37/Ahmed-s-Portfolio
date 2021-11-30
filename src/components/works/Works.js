@@ -42,14 +42,17 @@ const Works = () => {
           <h1>Best Work...</h1>
             <div className="slider" style={{transform: `translateX(-${currentSlide * 100}vw)`, cursor: 'pointer'}}>
                 {data.map((d) => (
-                  <a href={d.live} target='_blank'>
+                  
                     <div className="container" key={d.id}>
+                    
                     <div className="item">
                         <div className="left">
                             <div className="leftContainer">
+                            <a href={d.live} target='_blank' className='editLink'>
                                 <div className="imgContainer">
                                     <img src={d.icon} alt="" />
                                 </div>
+                            </a>
                                 <h2>{d.title}</h2>
                                 <p>{d.desc}</p>
                                 <span>Projects</span>
@@ -59,8 +62,9 @@ const Works = () => {
                             <img src={d.img} alt="" />
                         </div>
                     </div>
+                   
                 </div>
-                </a>
+               
                 ))}
             </div>
             <img src="assets/arrow.png" alt="" className="arrow left" onClick={() => handleClick('left')}/>
