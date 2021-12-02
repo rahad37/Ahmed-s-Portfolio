@@ -28,7 +28,8 @@ const Works = () => {
           title: "Ahmed E-Commerce",
           desc:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-          img: "https://i.ibb.co/7g6d7XM/ahmed-e-commerce.png",
+          img: "https://i.ibb.co/jMsXXTs/aaa.png",
+          live: "https://www.linkedin.com/feed/update/urn:li:activity:6872224006817366017/"
         },
       ];
 
