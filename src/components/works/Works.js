@@ -26,8 +26,7 @@ const Works = () => {
           id: "3",
           icon: "./assets/globe.png",
           title: "Ahmed E-Commerce",
-          desc:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+          desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
           img: "https://i.ibb.co/jMsXXTs/aaa.png",
           live: "https://www.linkedin.com/feed/update/urn:li:activity:6872224006817366017/"
         },
