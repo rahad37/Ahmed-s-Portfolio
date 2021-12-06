@@ -39,7 +39,7 @@ const Works = () => {
 
     return (      
         <div className='works' id='works'>
-          <h1>Best Work...</h1>
+          <h1>Best Works...</h1>
             <div className="slider" style={{transform: `translateX(-${currentSlide * 100}vw)`, cursor: 'pointer'}}>
                 {data.map((d) => (
                   
